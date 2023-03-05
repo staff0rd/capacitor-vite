@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "check-types": "tsc --noEmit",
     "ionic:serve": "vite dev --host",
-    "dev:android": "ionic capacitor run android --external --livereload -p 5173"
+    "dev:android": "ionic capacitor run android --external --livereload -p 5173",
+    "dev:ios": "ionic capacitor run ios --external --livereload -p 5173"
   },
   "dependencies": {
     "@capacitor/android": "^4.7.0",
